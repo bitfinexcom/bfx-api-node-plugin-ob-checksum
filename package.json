@@ -1,0 +1,42 @@
+{
+  "name": "bfx-api-node-plugin-ob-cs",
+  "version": "2.0.0-beta.1",
+  "description": "Automatic order book checksum verification plugin for the Bitfinex Node API",
+  "engines": {
+    "node": ">=7"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint && npm run unit",
+    "unit": "NODE_ENV=test mocha -b --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitfinexcom/bfx-api-node-plugin-ob-cs.git"
+  },
+  "keywords": [
+    "bitfinex",
+    "bitcoin",
+    "BTC"
+  ],
+  "contributors": [
+    "Cris Mihalache <cris.m@bitfinex.com> (https://www.bitfinex.com)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitfinexcom/bfx-api-node-plugin-ob-cs/issues"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^3.4.2",
+    "standard": "^10.0.2"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "debug": "^2.2.0",
+    "lodash": "^4.17.4",
+    "bfx-api-node-models": "bitfinexcom/bfx-api-node-models",
+    "bfx-api-node-core": "bitfinexcom/bfx-api-node-core"
+  }
+}
