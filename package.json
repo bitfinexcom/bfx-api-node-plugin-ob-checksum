@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitfinexcom/bfx-api-node-plugin-ob-cs.git"
+    "url": "https://github.com/bitfinexcom/bfx-api-node-plugin-ob-checksum.git"
   },
   "keywords": [
     "bitfinex",
@@ -25,7 +25,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bitfinexcom/bfx-api-node-plugin-ob-cs/issues"
+    "url": "https://github.com/bitfinexcom/bfx-api-node-plugin-ob-checksum/issues"
   },
   "devDependencies": {
     "chai": "^3.4.1",
