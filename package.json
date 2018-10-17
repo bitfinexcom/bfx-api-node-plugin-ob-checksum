@@ -1,6 +1,6 @@
 {
   "name": "bfx-api-node-plugin-ob-cs",
-  "version": "2.0.0-beta.1",
+  "version": "1.0.0",
   "description": "Automatic order book checksum verification plugin for the Bitfinex Node API",
   "engines": {
     "node": ">=7"
@@ -36,7 +36,7 @@
     "bluebird": "^3.5.1",
     "debug": "^2.2.0",
     "lodash": "^4.17.4",
-    "bfx-api-node-models": "bitfinexcom/bfx-api-node-models",
-    "bfx-api-node-core": "bitfinexcom/bfx-api-node-core"
+    "bfx-api-node-models": "^1.0.0",
+    "bfx-api-node-core": "^1.0.0"
   }
 }
