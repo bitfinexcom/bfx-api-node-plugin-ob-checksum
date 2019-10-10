@@ -20,7 +20,7 @@ npm i --save bfx-api-node-plugin-ob-checksum
 
 ### Docs
 
-For an executable example, see `examples/usage.js`
+For an executable example, [see `examples/usage.js`](/examples/usage.js)
 
 ### Quickstart & Example
 
